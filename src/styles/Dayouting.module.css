@@ -1,0 +1,99 @@
+.day-outing {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .details {
+    width: 60%;
+  }
+  
+  .details h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .details p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .image-slider {
+    margin-top: 20px;
+  }
+  
+  .image-slider img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .booking {
+    width: 35%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .date-picker {
+    margin-bottom: 20px;
+  }
+  
+  .date-picker label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .date-picker input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .ticket {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .ticket .counter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .counter button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .counter span {
+    font-size: 16px;
+  }
+  
+  .total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin: 20px 0;
+  }
+  
+  .proceed {
+    width: 100%;
+    padding: 10px;
+    background-color: #6bbf3d;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
